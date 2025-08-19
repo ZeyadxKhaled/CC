@@ -42,16 +42,18 @@ public class StunSlam extends Module implements Listener {
             .name("switch-delay")
             .description("Delay between weapon switches (seconds)")
             .def(0.02)
-            .min(0.01)
-            .max(0.5)
+            .min(0.0)
+            .max(0.1)
+            .decimalPlaces(2)
             .build());
             
     private final DoubleSetting attackDelay = sgTiming.add(DoubleSetting.create()
             .name("attack-delay")
             .description("Delay between attacks (seconds)")
             .def(0.02)
-            .min(0.01)
-            .max(0.5)
+            .min(0.0)
+            .max(0.1)
+            .decimalPlaces(2)
             .build());
 
     public StunSlam() {
