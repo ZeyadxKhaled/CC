@@ -1,0 +1,48 @@
+{
+  "required": true,
+  "package": "io.github.itzispyder.clickcrystals.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinAbstractClientPlayerEntity",
+    "MixinArmorFeatureRenderer",
+    "MixinBlockItem",
+    "MixinCamera",
+    "MixinChatHud",
+    "MixinChatInputSuggestor",
+    "MixinClientConnection",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayerInteractionManager",
+    "MixinClientPlayNetworkHandler",
+    "MixinClientWorld",
+    "MixinEntityRenderer",
+    "MixinFlyingItemEntityRenderer",
+    "MixinGameRenderer",
+    "MixinHandledScreen",
+    "MixinHeldItemRenderer",
+    "MixinInGameHud",
+    "MixinInGameOverlay",
+    "MixinInGameOverlayRenderer",
+    "MixinKeyboard",
+    "MixinLightmapTextureManager",
+    "MixinMouse",
+    "MixinParticleManager",
+    "MixinScreen",
+    "MixinSoundSystem",
+    "MixinSplashOverlay",
+    "MixinSplashTextResourceSupplier",
+    "MixinTotemParticle",
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinBlock",
+    "MixinEntity",
+    "MixinItem",
+    "MixinItemStack",
+    "MixinLivingEntity",
+    "MixinMinecraftClient",
+    "MixinPlayerInventory"
+  ]
+}
